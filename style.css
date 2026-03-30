@@ -1,0 +1,34 @@
+header {
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+main {
+    max-width: 800px;
+    padding: 2em;
+    padding-top: 1em;
+    margin: auto;
+}
+
+nav {
+    margin-left: -0.5em;
+    margin-top: 0.5em;
+    display: flex;
+    .navitem {
+        padding: 0.5em;
+        font-family: Calibri;
+        font-size: 1.3em;
+        color: black;
+        text-decoration: none;
+    }
+    .navitem:hover {
+        background-color: rgba(100, 148, 237, 0.3);
+        color: blue;
+    }
+    .filler {
+        flex-grow: 100;
+    }
+}
